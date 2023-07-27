@@ -1,0 +1,59 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faf9f6;
+}
+
+.card {
+  margin: 100px;
+  width: 450px;
+  height: 90vh;
+}
+
+.btn {
+  color: white !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+label,
+.date {
+  font-size: small;
+}
+
+.ez {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.ez2 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.para2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: smaller;
+  color: #999;
+
+}
+
+.capacity {
+
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+/* we dont need to define predefined classses of bootstrap */
